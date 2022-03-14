@@ -24,7 +24,7 @@
 
 <body>
 
-    <header id="header" class="navbar navbar-expand-lg navbar-light navbar-end bg-white">
+    <header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light">
     <div class="container">
         <nav class="js-mega-menu navbar-nav-wrap">
         <!-- Default Logo -->
@@ -87,300 +87,124 @@
 
     <main id="content" role="main">
 
-        <div class="bg-primary-dark position-relative overflow-hidden">
-            <div class="container content-space-2">
-            <div class="row justify-content-center align-items-lg-center">
-            <div class="col-md-8 col-lg-6 mb-7 mb-lg-0">
-                <!-- Heading -->
-                <div class="pe-lg-3 mb-7">
-                <h1 class="display-4 text-white mb-3 mb-md-5">Lo ayudamos a cobrar facturas,<span class="text-warning"> simple y en línea</span></h1>
-                <p class="lead text-white-70">Publicamos deudas en el boletín bancario y contactamos al deudor, hasta que reciba el pago</p>
+        <div class="bg-soft-primary-light position-relative overflow-hidden">
+            <div class="container content-space-t-3 content-space-t-md-4 content-space-b-1 content-space-b-md-3">
+              <div class="row mb-7">
+                <div class="col-md-12">
+                  <!-- Heading -->
+                  <div class="pe-lg-3">
+                    <h1 class="display-4 text-primary">Cobranza y publicación <br> de <span class="text-warning">morosidades</span></h1>
+                  </div>
+                  <!-- End Heading -->
                 </div>
-                <!-- End Heading -->
+                <!-- End Col -->
+              </div>
+              <!-- End Row -->
+    
+              <div class="row mb-7">
+                <div class="col-md-9">
+                  <form>
+                    <!-- Input Card -->
+                    <div class="input-card input-card-sm">
+                      <div class="input-card-form">
+                        <label for="nameRegisterForm" class="form-label visually-hidden">Nombre</label>
+                        <!-- Input Group -->
+                        <div class="input-group input-group-merge">
+                          <span class="input-group-prepend input-group-text">
+                            <i class="bi-person"></i>
+                          </span>
+                          <input type="text" class="form-control form-control-lg" id="firstname" name="firstname" placeholder="Nombre" aria-label="Nombre" aria-describedby="heroNameAddOn">
+                        </div>
+                        <!-- End Input Group -->
+                      </div>
 
-                <div class="row">
-                <div class="col-sm-6 mb-3 mb-sm-0">
-                    <!-- Info Block -->
-                    <div class="d-flex">
-                    <div class="flex-shrink-0">
-                        <span class="svg-icon text-white">
+                      <div class="input-card-form">
+                        <label for="nameRegisterForm" class="form-label visually-hidden">Apellido</label>
+                        <!-- Input Group -->
+                        <div class="input-group input-group-merge">
+                          <span class="input-group-prepend input-group-text">
+                            <i class="bi-person"></i>
+                          </span>
+                          <input type="text" class="form-control form-control-lg" id="lastname" name="lastname" placeholder="Apellido" aria-label="Apellido" aria-describedby="heroNameAddOn">
+                        </div>
+                        <!-- End Input Group -->
+                      </div>
+    
+                      <div class="input-card-form">
+                        <label for="emailRegisterForm" class="form-label visually-hidden">Email</label>
+                        <!-- Input Group -->
+                        <div class="input-group input-group-merge">
+                          <span class="input-group-prepend input-group-text">
+                            <i class="bi-envelope-open"></i>
+                          </span>
+                          <input type="text" class="form-control form-control-lg" id="email" name="email" placeholder="Email" aria-label="Email">
+                        </div>
+                        <!-- End Input Group -->
+                      </div>
+    
+                      <button type="button" class="btn btn-primary btn-lg" id="heroNameAddOn">Contactar</button>
+                    </div>
+                    <!-- End Input Card -->
+                  </form>
+                </div>
+                <!-- End Col -->
+              </div>
+              <!-- End Row -->
+    
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="row">
+                    <div class="col-sm mb-3 mb-sm-0">
+                        <span class="svg-icon text-primary mb-3">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15 19.5229C15 20.265 15.9624 20.5564 16.374 19.9389L22.2227 11.166C22.5549 10.6676 22.1976 10 21.5986 10H17V4.47708C17 3.73503 16.0376 3.44363 15.626 4.06106L9.77735 12.834C9.44507 13.3324 9.80237 14 10.4014 14H15V19.5229Z" fill="#035A4B"></path>
+                            <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M3 6.5C3 5.67157 3.67157 5 4.5 5H9.5C10.3284 5 11 5.67157 11 6.5C11 7.32843 10.3284 8 9.5 8H4.5C3.67157 8 3 7.32843 3 6.5ZM3 18.5C3 17.6716 3.67157 17 4.5 17H9.5C10.3284 17 11 17.6716 11 18.5C11 19.3284 10.3284 20 9.5 20H4.5C3.67157 20 3 19.3284 3 18.5ZM2.5 11C1.67157 11 1 11.6716 1 12.5C1 13.3284 1.67157 14 2.5 14H6.5C7.32843 14 8 13.3284 8 12.5C8 11.6716 7.32843 11 6.5 11H2.5Z" fill="#035A4B"></path>
+                        </svg>
+                        </span>
+                      <p>Sin trámites, todo 100% online</p>
+                    </div>
+                    <!-- End Col -->
+    
+                    <div class="col-sm mb-3 mb-sm-0">
+                        <span class="svg-icon text-primary mb-3">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path opacity="0.3" d="M3 3V17H7V21H15V9H20V3H3Z" fill="#035A4B"></path>
                                 <path d="M20 22H3C2.4 22 2 21.6 2 21V3C2 2.4 2.4 2 3 2H20C20.6 2 21 2.4 21 3V21C21 21.6 20.6 22 20 22ZM19 4H4V8H19V4ZM6 18H4V20H6V18ZM6 14H4V16H6V14ZM6 10H4V12H6V10ZM10 18H8V20H10V18ZM10 14H8V16H10V14ZM10 10H8V12H10V10ZM14 18H12V20H14V18ZM14 14H12V16H14V14ZM14 10H12V12H14V10ZM19 14H17V20H19V14ZM19 10H17V12H19V10Z" fill="#035A4B"></path>
                             </svg>
                         </span>
+                        
+                      <p>Suscriba un plan y pague menos</p>
                     </div>
-
-                    <div class="flex-grow-1 ms-4">
-                        <h6 class="text-white mb-0">Sin comisión</h6>
-                        <p class="text-white-70">Pague menos</p>
-                    </div>
-                    </div>
-                    <!-- End Info Block -->
-                </div>
-                <!-- End Col -->
-
-                <div class="col-sm-6">
-                    <!-- Info Block -->
-                    <div class="d-flex">
-                    <div class="flex-shrink-0">
-                        <span class="svg-icon text-white">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path opacity="0.3" d="M6.7 19.4L5.3 18C4.9 17.6 4.9 17 5.3 16.6L16.6 5.3C17 4.9 17.6 4.9 18 5.3L19.4 6.7C19.8 7.1 19.8 7.7 19.4 8.1L8.1 19.4C7.8 19.8 7.1 19.8 6.7 19.4Z" fill="#035A4B"></path>
-                                <path d="M19.5 18L18.1 19.4C17.7 19.8 17.1 19.8 16.7 19.4L5.40001 8.1C5.00001 7.7 5.00001 7.1 5.40001 6.7L6.80001 5.3C7.20001 4.9 7.80001 4.9 8.20001 5.3L19.5 16.6C19.9 16.9 19.9 17.6 19.5 18Z" fill="#035A4B"></path>
+                    <!-- End Col -->
+    
+                    <div class="col-sm">
+                        <span class="svg-icon text-primary mb-3">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.3" d="M6.7 19.4L5.3 18C4.9 17.6 4.9 17 5.3 16.6L16.6 5.3C17 4.9 17.6 4.9 18 5.3L19.4 6.7C19.8 7.1 19.8 7.7 19.4 8.1L8.1 19.4C7.8 19.8 7.1 19.8 6.7 19.4Z" fill="#035A4B"></path>
+                            <path d="M19.5 18L18.1 19.4C17.7 19.8 17.1 19.8 16.7 19.4L5.40001 8.1C5.00001 7.7 5.00001 7.1 5.40001 6.7L6.80001 5.3C7.20001 4.9 7.80001 4.9 8.20001 5.3L19.5 16.6C19.9 16.9 19.9 17.6 19.5 18Z" fill="#035A4B"></path>
                             </svg>
                         </span>
+                      <p>Sin límite de monto por documento</p>
                     </div>
-
-                    <div class="flex-grow-1 ms-4">
-                        <h6 class="text-white mb-0">Sin límite de monto</h6>
-                        <p class="text-white-70">por documento</p>
-                    </div>
-                    </div>
-                    <!-- End Info Block -->
+                    <!-- End Col -->
+                  </div>
+                  <!-- End Row -->
                 </div>
                 <!-- End Col -->
-                </div>
-                <!-- End Row -->
+              </div>
+              <!-- End Row -->
             </div>
-            <!-- End Col -->
-
-            <div class="col-md-8 col-lg-6">
-                <div class="ps-lg-5">
-                <!-- Card -->
-                <div class="card card-lg">
-                    <div class="card-body">
-                    <div class="row align-items-sm-center mb-5">
-                        <div class="col-sm-auto order-sm-2 mb-3 mb-sm-0">
-                        <img class="avatar avatar-xxl avatar-4x3" src="./assets/svg/illustrations/oc-chatting.svg" alt="Image Description">
-                        </div>
-                        <!-- End Col -->
-
-                        <div class="col-sm">
-                        <h5 class="card-title">¿Necesita cobrar?
-                        </h5>
-                        <p class="card-text">Publicamos y contactamos a deudores, hasta que reciba el pago.</p>
-                        </div>
-                        <!-- End Col -->
-                    </div>
-                    <!-- End Row -->
-
-                    <form>
-                        <!-- Form -->
-                        <div class="row">
-                        <div class="col-sm-6">
-                            <!-- Form -->
-                            <div class="mb-4">
-                            <label class="form-label" for="hireUsFormFirstName">Nombre</label>
-                            <input type="text" class="form-control" name="firstname" id="PrimerNombre" placeholder="Sofía" aria-label="Sofía">
-                            </div>
-                            <!-- End Form -->
-                        </div>
-                
-                        <div class="col-sm-6">
-                            <!-- Form -->
-                            <div class="mb-4">
-                            <label class="form-label" for="hireUsFormLasttName">Apellido</label>
-                            <input type="text" class="form-control" name="lastname" id="Apellido" placeholder="Gonzalez" aria-label="Gonzalez">
-                            </div>
-                            <!-- End Form -->
-                        </div>
-                        </div>
-
-                        <!-- Form -->
-                        <div class="mb-4">
-                        <label class="form-label" for="registerEmail">Correo</label>
-                        <input type="email" class="form-control form-control-lg" name="email" id="registerEmail" placeholder="ejemplo@correo.cl" aria-label="example@site.com" required data-msg="Por favor, ingrese un correo valido">
-                        </div>
-                        <!-- End Form -->
-
-                        <div class="mb-4">
-                            <label class="form-label" for="registerEmail">¿Cuántos documentos necesita cobrar por mes?</label>
-            
-                            <div class="row">
-                                <div class="col-sm mb-4 mb-sm-0">
-                                <!-- Form Check -->
-                                <label class="form-control form-control-lg" for="registerRadio1">
-                                    <span class="form-check form-check-custom">
-                                    <input type="radio" class="form-check-input" name="cuantos_documentos_necesita_cobrar_" id="1-5" checked>
-                                    <span class="form-check-label">1-5</span>
-                                    </span>
-                                </label>
-                                <!-- End Form Check -->
-                                </div>
-            
-                                <div class="col-sm mb-4 mb-sm-0">
-                                <!-- Form Check -->
-                                <label class="form-control form-control-lg" for="registerRadio2">
-                                    <span class="form-check form-check-custom">
-                                    <input type="radio" class="form-check-input" name="cuantos_documentos_necesita_cobrar_" id="5-20">
-                                    <span class="form-check-label">5-20</span>
-                                    </span>
-                                </label>
-                                <!-- End Form Check -->
-                                </div>
-            
-                                <div class="col-sm">
-                                <!-- Form Check -->
-                                <label class="form-control form-control-lg" for="registerRadio2">
-                                    <span class="form-check form-check-custom">
-                                    <input type="radio" class="form-check-input" name="cuantos_documentos_necesita_cobrar_" id="20+">
-                                    <span class="form-check-label">20+</span>
-                                    </span>
-                                </label>
-                                <!-- End Form Check -->
-                                </div>
-                            </div>
-                            <!-- End Row -->
-                        </div>
-
-                        <div class="d-grid text-center">
-                        <button type="submit" class="btn btn-primary btn-lg">Contactar ahora</button>
-                        <span class="form-text">Prueba gratis por 30 días</span>
-                        </div>
-                    </form>
-                    </div>
-                </div>
-                <!-- End Card -->
-                </div>
-            </div>
-            <!-- End Col -->
-            </div>
-            <!-- End Row -->
-
-            </div>
-
-            <!-- Background Shapes -->
+    
+            <!-- SVG Elements -->
             <div class="position-absolute top-0 end-0">
-            <img src="./assets/svg/components/shape-3-soft-light.svg" alt="SVG" width="500">
+              <img src="./assets/svg/components/shape-3.svg" alt="SVG" width="350">
             </div>
             <div class="position-absolute bottom-0 end-0 me-10">
-            <img src="./assets/svg/components/shape-1-soft-light.svg" alt="SVG" width="250">
+              <img src="./assets/svg/components/shape-1.svg" alt="SVG" width="200">
             </div>
-            <div class="position-absolute bottom-0 start-0">
-            <img src="./assets/svg/components/shape-2-soft-light.svg" alt="SVG" width="400">
-            </div>
-            <!-- End Background Shapes -->
+            <!-- End SVG Elements -->
         </div>
-
-        <div class="bg-soft-warning">
-        <div class="container content-space-1 content-space-md-3">
-            <div class="row mb-3 mb-md-10">
-            <div class="col-md-4 mb-5 mb-md-0">
-                <span class="text-cap">Pruebe hoy</span>
-                <h3>¿No ha logrado cobrar a clientes en mora?</h3>
-                <p>Publicamos en el boletín bancario y contactamos al deudor hasta que reciba el pago.</p>
-            </div>
-            <!-- End Col -->
-
-            <div class="col-md-8">
-                <div class="ps-lg-5">
-                <div class="row">
-                    <div class="col-sm-6 mb-7">
-                    <!-- Icon -->
-                    <div class="mb-3">
-                        <svg width="48" height="49" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M4.85714 1H11.7364C12.0911 1 12.4343 1.12568 12.7051 1.35474L17.4687 5.38394C17.8057 5.66895 18 6.08788 18 6.5292V19.0833C18 20.8739 17.9796 21 16.1429 21H4.85714C3.02045 21 3 20.8739 3 19.0833V2.91667C3 1.12612 3.02045 1 4.85714 1ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#008060"></path>
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.85714 3H14.7364C15.0911 3 15.4343 3.12568 15.7051 3.35474L20.4687 7.38394C20.8057 7.66895 21 8.08788 21 8.5292V21.0833C21 22.8739 20.9796 23 19.1429 23H6.85714C5.02045 23 5 22.8739 5 21.0833V4.91667C5 3.12612 5.02045 3 6.85714 3ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#008060"></path>
-                        </svg>
-                    </div>
-                    <!-- End Icon -->
-
-                    <h5>Facturas, pagarés y más</h5>
-                    <p>Cobre a clientes en mora sin límite de monto y sin limite de documentos (en plan Gran).</p>
-
-                    </div>
-                    <!-- End Col -->
-
-                    <div class="col-sm-6 mb-7">
-                    <!-- Icon -->
-                    <div class="mb-3">
-                        <svg width="48" height="49" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path opacity="0.3" d="M21.6 11.2L19.3 8.89998V5.59993C19.3 4.99993 18.9 4.59993 18.3 4.59993H14.9L12.6 2.3C12.2 1.9 11.6 1.9 11.2 2.3L8.9 4.59993H5.6C5 4.59993 4.6 4.99993 4.6 5.59993V8.89998L2.3 11.2C1.9 11.6 1.9 12.1999 2.3 12.5999L4.6 14.9V18.2C4.6 18.8 5 19.2 5.6 19.2H8.9L11.2 21.5C11.6 21.9 12.2 21.9 12.6 21.5L14.9 19.2H18.2C18.8 19.2 19.2 18.8 19.2 18.2V14.9L21.5 12.5999C22 12.1999 22 11.6 21.6 11.2Z" fill="#008060"></path>
-                        <path d="M11.3 9.40002C11.3 10.2 11.1 10.9 10.7 11.3C10.3 11.7 9.8 11.9 9.2 11.9C8.8 11.9 8.40001 11.8 8.10001 11.6C7.80001 11.4 7.50001 11.2 7.40001 10.8C7.20001 10.4 7.10001 10 7.10001 9.40002C7.10001 8.80002 7.20001 8.4 7.30001 8C7.40001 7.6 7.7 7.29998 8 7.09998C8.3 6.89998 8.7 6.80005 9.2 6.80005C9.5 6.80005 9.80001 6.9 10.1 7C10.4 7.1 10.6 7.3 10.8 7.5C11 7.7 11.1 8.00005 11.2 8.30005C11.3 8.60005 11.3 9.00002 11.3 9.40002ZM10.1 9.40002C10.1 8.80002 10 8.39998 9.90001 8.09998C9.80001 7.79998 9.6 7.70007 9.2 7.70007C9 7.70007 8.8 7.80002 8.7 7.90002C8.6 8.00002 8.50001 8.2 8.40001 8.5C8.40001 8.7 8.30001 9.10002 8.30001 9.40002C8.30001 9.80002 8.30001 10.1 8.40001 10.4C8.40001 10.6 8.5 10.8 8.7 11C8.8 11.1 9 11.2001 9.2 11.2001C9.5 11.2001 9.70001 11.1 9.90001 10.8C10 10.4 10.1 10 10.1 9.40002ZM14.9 7.80005L9.40001 16.7001C9.30001 16.9001 9.10001 17.1 8.90001 17.1C8.80001 17.1 8.70001 17.1 8.60001 17C8.50001 16.9 8.40001 16.8001 8.40001 16.7001C8.40001 16.6001 8.4 16.5 8.5 16.4L14 7.5C14.1 7.3 14.2 7.19998 14.3 7.09998C14.4 6.99998 14.5 7 14.6 7C14.7 7 14.8 6.99998 14.9 7.09998C15 7.19998 15 7.30002 15 7.40002C15.2 7.30002 15.1 7.50005 14.9 7.80005ZM16.6 14.2001C16.6 15.0001 16.4 15.7 16 16.1C15.6 16.5 15.1 16.7001 14.5 16.7001C14.1 16.7001 13.7 16.6 13.4 16.4C13.1 16.2 12.8 16 12.7 15.6C12.5 15.2 12.4 14.8001 12.4 14.2001C12.4 13.3001 12.6 12.7 12.9 12.3C13.2 11.9 13.7 11.7001 14.5 11.7001C14.8 11.7001 15.1 11.8 15.4 11.9C15.7 12 15.9 12.2 16.1 12.4C16.3 12.6 16.4 12.9001 16.5 13.2001C16.6 13.4001 16.6 13.8001 16.6 14.2001ZM15.4 14.1C15.4 13.5 15.3 13.1 15.2 12.9C15.1 12.6 14.9 12.5 14.5 12.5C14.3 12.5 14.1 12.6001 14 12.7001C13.9 12.8001 13.8 13.0001 13.7 13.2001C13.6 13.4001 13.6 13.8 13.6 14.1C13.6 14.7 13.7 15.1 13.8 15.4C13.9 15.7 14.1 15.8 14.5 15.8C14.8 15.8 15 15.7 15.2 15.4C15.3 15.2 15.4 14.7 15.4 14.1Z" fill="#008060"></path>
-                        </svg>
-                    </div>
-                    <!-- End Icon -->
-
-                    <h5>Sin comisiones</h5>
-                    <p>Eliminamos las comisiones para que pague menos. Cancelación gratis siempre.</p>
-
-                    </div>
-                    <!-- End Col -->
-                </div>
-                <!-- End Row -->
-
-                <div class="row">
-                    <div class="col-sm-6 mb-7 mb-sm-0">
-                    <!-- Icon -->
-                    <div class="mb-3">
-                        <svg width="48" height="49" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path opacity="0.3" d="M3.20001 5.91897L16.9 3.01895C17.4 2.91895 18 3.219 18.1 3.819L19.2 9.01895L3.20001 5.91897Z" fill="#008060"></path>
-                        <path opacity="0.3" d="M13 13.9189C13 12.2189 14.3 10.9189 16 10.9189H21C21.6 10.9189 22 11.3189 22 11.9189V15.9189C22 16.5189 21.6 16.9189 21 16.9189H16C14.3 16.9189 13 15.6189 13 13.9189ZM16 12.4189C15.2 12.4189 14.5 13.1189 14.5 13.9189C14.5 14.7189 15.2 15.4189 16 15.4189C16.8 15.4189 17.5 14.7189 17.5 13.9189C17.5 13.1189 16.8 12.4189 16 12.4189Z" fill="#008060"></path>
-                        <path d="M13 13.9189C13 12.2189 14.3 10.9189 16 10.9189H21V7.91895C21 6.81895 20.1 5.91895 19 5.91895H3C2.4 5.91895 2 6.31895 2 6.91895V20.9189C2 21.5189 2.4 21.9189 3 21.9189H19C20.1 21.9189 21 21.0189 21 19.9189V16.9189H16C14.3 16.9189 13 15.6189 13 13.9189Z" fill="#008060"></path>
-                        </svg>
-                    </div>
-                    <!-- End Icon -->
-
-                    <h5>Hasta que reciba el pago</h5>
-                    <p>Publicamos a deudores de manera indefinida y enviamos un email cada semana.</p>
-
-                    </div>
-                    <!-- End Col -->
-
-                    <div class="col-sm-6">
-                    <!-- Icon -->
-                    <div class="mb-3">
-                        <svg width="48" height="49" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M22.1671 18.1421C22.4827 18.4577 23.0222 18.2331 23.0206 17.7868L23.0039 13.1053V5.52632C23.0039 4.13107 21.8729 3 20.4776 3H8.68815C7.2929 3 6.16183 4.13107 6.16183 5.52632V9H13C14.6568 9 16 10.3431 16 12V15.6316H19.6565L22.1671 18.1421Z" fill="#008060"></path>
-                        <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M1.98508 18V13C1.98508 11.8954 2.88051 11 3.98508 11H11.9851C13.0896 11 13.9851 11.8954 13.9851 13V18C13.9851 19.1046 13.0896 20 11.9851 20H4.10081L2.85695 21.1905C2.53895 21.4949 2.01123 21.2695 2.01123 20.8293V18.3243C1.99402 18.2187 1.98508 18.1104 1.98508 18ZM5.99999 14.5C5.99999 14.2239 6.22385 14 6.49999 14H11.5C11.7761 14 12 14.2239 12 14.5C12 14.7761 11.7761 15 11.5 15H6.49999C6.22385 15 5.99999 14.7761 5.99999 14.5ZM9.49999 16C9.22385 16 8.99999 16.2239 8.99999 16.5C8.99999 16.7761 9.22385 17 9.49999 17H11.5C11.7761 17 12 16.7761 12 16.5C12 16.2239 11.7761 16 11.5 16H9.49999Z" fill="#008060"></path>
-                        </svg>
-                    </div>
-                    <!-- End Icon -->
-
-                    <h5>¿Necesita algo más?</h5>
-                    <p>Si necesita pasar al siguiente nivel, contamos con abogados expertos en cobranza judicial.</p>
-
-                    </div>
-                    <!-- End Col -->
-                </div>
-                <!-- End Row -->
-                
-                
-                </div>
-            </div>
-            <!-- End Col -->
-            </div>
-
-            <div class="mx-auto" style="max-width: 31.25rem;">
-            <!-- Alert -->
-            <div class="alert alert-soft-primary" role="alert">
-                <div class="d-sm-flex align-items-sm-center">
-                <div class="flex-shrink-0 mb-3 mb-sm-0">
-                    <span class="svg-icon text-primary">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 19.5229C15 20.265 15.9624 20.5564 16.374 19.9389L22.2227 11.166C22.5549 10.6676 22.1976 10 21.5986 10H17V4.47708C17 3.73503 16.0376 3.44363 15.626 4.06106L9.77735 12.834C9.44507 13.3324 9.80237 14 10.4014 14H15V19.5229Z" fill="#035A4B"></path>
-                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M3 6.5C3 5.67157 3.67157 5 4.5 5H9.5C10.3284 5 11 5.67157 11 6.5C11 7.32843 10.3284 8 9.5 8H4.5C3.67157 8 3 7.32843 3 6.5ZM3 18.5C3 17.6716 3.67157 17 4.5 17H9.5C10.3284 17 11 17.6716 11 18.5C11 19.3284 10.3284 20 9.5 20H4.5C3.67157 20 3 19.3284 3 18.5ZM2.5 11C1.67157 11 1 11.6716 1 12.5C1 13.3284 1.67157 14 2.5 14H6.5C7.32843 14 8 13.3284 8 12.5C8 11.6716 7.32843 11 6.5 11H2.5Z" fill="#035A4B"></path>
-                    </svg>
-
-                    </span>
-                </div>
-
-                <div class="flex-grow-1 text-dark ms-sm-3 mb-3 mb-sm-0">¿Se aburrió de cobrarle a clientes sin disposición a pagar?</div>
-
-                <div class="flex-shrink-0 ms-sm-3">
-                    <a class="btn btn-primary" href="#precios">Prueba gratis por 30 días</a>
-                </div>
-                </div>
-            </div>
-            <!-- End Alert -->
-            </div>
-            <!-- End Row -->
-
-            
-        </div>
-        </div>
-
+     
         <div id="como-funciona" class="shape-container">
         <div class="container content-space-t-1 content-space-t-md-3 content-space-b-3">
             <!-- Heading -->
@@ -470,190 +294,308 @@
         </div>
         </div>
 
-        <div id="precios" class="container content-space-b-2">
-        <!-- Heading -->
-        <div class="w-lg-65 text-center mx-lg-auto mb-7">
-        <h3>Encuentre el plan ideal</h3>
-        <p class="fs-6">Montos fijos, cuentas claras</p>
-        </div>
-        <!-- End Heading -->
-
-        <!-- Form Switch -->
-        <div class="d-flex justify-content-center mb-5">
-        <div class="form-check form-switch form-switch-between">
-            <label class="form-check-label">Mensual</label>
-            <input class="js-toggle-switch form-check-input" type="checkbox"
-                data-hs-toggle-switch-options='{
-                    "targetSelector": "#pricingCount1, #pricingCount2, #pricingCount3"
-                }'>
-            <label class="form-check-label form-switch-promotion">
-            Anual
-            <span class="form-switch-promotion-container">
-                <span class="form-switch-promotion-body">
-                <svg class="form-switch-promotion-arrow" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 99.3 57" width="48">
-                    <path fill="none" stroke="#bdc5d1" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="M2,39.5l7.7,14.8c0.4,0.7,1.3,0.9,2,0.4L27.9,42"></path>
-                    <path fill="none" stroke="#bdc5d1" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="M11,54.3c0,0,10.3-65.2,86.3-50"></path>
-                </svg>
-                <span class="form-switch-promotion-text">
-                    <span class="badge bg-warning text-dark rounded-pill ms-1">20% dcto.</span>
+        <div id="precios" class="container content-space-b-2 content-space-t-1 content-space-t-md-3">
+            <!-- Heading -->
+            <div class="w-lg-65 text-center mx-lg-auto mb-7">
+            <h3>Encuentre el plan ideal</h3>
+            <p class="fs-6">Montos fijos, cuentas claras</p>
+            </div>
+            <!-- End Heading -->
+    
+            <!-- Form Switch -->
+            <div class="d-flex justify-content-center mb-5">
+            <div class="form-check form-switch form-switch-between">
+                <label class="form-check-label">Mensual</label>
+                <input class="js-toggle-switch form-check-input" type="checkbox"
+                    data-hs-toggle-switch-options='{
+                        "targetSelector": "#pricingCount1, #pricingCount2, #pricingCount3"
+                    }'>
+                <label class="form-check-label form-switch-promotion">
+                Anual
+                <span class="form-switch-promotion-container">
+                    <span class="form-switch-promotion-body">
+                    <svg class="form-switch-promotion-arrow" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 99.3 57" width="48">
+                        <path fill="none" stroke="#bdc5d1" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="M2,39.5l7.7,14.8c0.4,0.7,1.3,0.9,2,0.4L27.9,42"></path>
+                        <path fill="none" stroke="#bdc5d1" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="M11,54.3c0,0,10.3-65.2,86.3-50"></path>
+                    </svg>
+                    <span class="form-switch-promotion-text">
+                        <span class="badge bg-warning text-dark rounded-pill ms-1">20% dcto.</span>
+                    </span>
+                    </span>
                 </span>
-                </span>
-            </span>
-            </label>
-        </div>
-        </div>
-        <!-- End Form Switch -->
-
-        <!-- Card Group -->
-        <div class="w-lg-85 shadow-lg rounded mx-lg-auto mb-7">
-        <div class="row card-group-md-row card-group-md-3">
-            <div class="col-md mb-3 mb-md-0">
-            <!-- Card -->
-            <div class="card card-lg">
-                <div class="card-header text-center">
-                <div class="mb-2">
-                    <span class="fs-5 align-top text-dark fw-bold">UF</span>
-                    <span id="pricingCount1" class="fs-2 text-dark fw-bold"
-                        data-hs-toggle-switch-item-options='{
-                            "min": 1,
-                            "max": 10.8
-                        }'>1</span>
-                    <span>/mes</span>
-                </div>
-
-                <h5 class="card-title">Micro</h5>
-                <p class="card-text">Comience a publicar a sus primeros deudores</p>
-                </div>
-
-                <div class="card-body d-flex justify-content-center h-100 py-0">
-                <!-- List Checked -->
-                <ul class="list-checked list-checked-primary">
-                    <li class="list-checked-item"><b>Hasta 5 documentos / mes</b></li>
-                    <li class="list-checked-item">Contacto semanal a deudor</li>
-                    <li class="list-checked-item">Sin límite de monto</li>
-                    <li class="list-checked-item">Sin límite de tiempo</li>
-                </ul>
-                <!-- End List Checked -->
-                </div>
-
-                <div class="card-footer text-center">
-                <div class="d-grid mb-2">
-                    <button type="button" class="btn btn-ghost-primary">Prueba gratis por 30 días</button>
-                </div>
-                <small class="d-block text-muted">Cancelación gratis</small>
-                </div>
+                </label>
             </div>
             </div>
-
-            <div class="col-md mb-3 mb-md-0">
-            <!-- Card -->
-            <div class="card card-lg">
-                <div class="card-header text-center">
-                <div class="mb-2">
-                    <span class="fs-5 align-top text-dark fw-bold">UF</span>
-                    <span id="pricingCount2" class="fs-2 text-dark fw-bold"
-                        data-hs-toggle-switch-item-options='{
-                            "min": 3,
-                            "max": 32.4
-                        }'>3</span>
-                    <span>/mes</span>
-                </div>
-
-                <h5 class="card-title">Medio</h5>
-                <p class="card-text">Aumente su gestión de cobro ante múltiples deudores</p>
-                </div>
-
-                <div class="card-body d-flex justify-content-center h-100 py-0">
-                <!-- List Checked -->
-                <ul class="list-checked list-checked-primary">
-                    <li class="list-checked-item"><b>Hasta 20 documentos / mes</b></li>
-                    <li class="list-checked-item">Contacto semanal a deudor</li>
-                    <li class="list-checked-item">Sin límite de monto</li>
-                    <li class="list-checked-item">Sin límite de tiempo</li>
-                </ul>
-                <!-- End List Checked -->
-                </div>
-
-                <div class="card-footer text-center">
-                <div class="d-grid mb-2">
-                    <button type="button" class="btn btn-primary">Prueba gratis por 30 días</button>
-                </div>
-                <small class="d-block text-muted">Cancelación gratis</small>
-                </div>
-            </div>
-            <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-md mb-3 mb-md-0">
-            <!-- Card -->
-            <div class="card card-lg">
-                <div class="card-header text-center">
-                <div class="mb-2">
-                    <span class="fs-5 align-top text-dark fw-bold">UF</span>
-                    <span id="pricingCount3" class="fs-2 text-dark fw-bold"
-                        data-hs-toggle-switch-item-options='{
-                            "min": 4.5,
-                            "max": 48.6
-                        }'>4.5</span>
-                    <span>/mes</span>
-                </div>
-
-                <h5 class="card-title">Gran</h5>
-                <p class="card-text">Potencie su área de cobranza y maximice liquidez</p>
-                </div>
-
-                <div class="card-body d-flex justify-content-center h-100 py-0">
-                <!-- List Checked -->
-                <ul class="list-checked list-checked-primary">
-                    <li class="list-checked-item"><b>Sin límite de documentos</b></li>
-                    <li class="list-checked-item">Contacto semanal a deudor</li>
-                    <li class="list-checked-item">Sin límite de monto</li>
-                    <li class="list-checked-item">Sin límite de tiempo</li>
-                </ul>
-                <!-- End List Checked -->
-                </div>
-
-                <div class="card-footer text-center">
-                <div class="d-grid mb-2">
-                    <button type="button" class="btn btn-ghost-primary">Prueba gratis por 30 días</button>
-                </div>
-                <small class="d-block text-muted">Cancelación gratis</small>
-                </div>
-            </div>
-            <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-12">
-            <!-- Card -->
-            <div class="card card-lg card-divider">
-                <div class="card-body">
-                <div class="row">
-                    <div class="col-sm mb-3 mb-sm-0">
-                    <h5 class="card-title">¿Plan a medida?</h5>
-                    <p class="card-text">Diseñamos una solución a medida para su empresa</p>
+            <!-- End Form Switch -->
+    
+            <!-- Card Group -->
+            <div class="w-lg-85 shadow-lg rounded mx-lg-auto mb-7">
+            <div class="row card-group-md-row card-group-md-3">
+                <div class="col-md mb-3 mb-md-0">
+                <!-- Card -->
+                <div class="card card-lg">
+                    <div class="card-header text-center">
+                    <div class="mb-2">
+                        <span class="fs-5 align-top text-dark fw-bold">UF</span>
+                        <span id="pricingCount1" class="fs-2 text-dark fw-bold"
+                            data-hs-toggle-switch-item-options='{
+                                "min": 1,
+                                "max": 10.8
+                            }'>1</span>
+                        <span>/mes</span>
                     </div>
-                    <!-- End Col -->
-
-                    <div class="col-sm-auto">
-                    <a class="btn btn-white" href="#contacto">Contactar</a>
+    
+                    <h5 class="card-title">Micro</h5>
+                    <p class="card-text">Comience a publicar a sus primeros deudores</p>
                     </div>
-                    <!-- End Col -->
+    
+                    <div class="card-body d-flex justify-content-center h-100 py-0">
+                    <!-- List Checked -->
+                    <ul class="list-checked list-checked-primary">
+                        <li class="list-checked-item"><b>Hasta 5 documentos</b></li>
+                        <li class="list-checked-item">Publicación y cobranza</li>
+                        <li class="list-checked-item">Sin límite de monto</li>
+                        <li class="list-checked-item">Reporte semanal</li>
+                    </ul>
+                    <!-- End List Checked -->
+                    </div>
+    
+                    <div class="card-footer text-center">
+                    <div class="d-grid mb-2">
+                        <button type="button" class="btn btn-ghost-primary">Prueba gratis por 30 días</button>
+                    </div>
+                    <small class="d-block text-muted">Cancelación gratis</small>
+                    </div>
+                </div>
+                </div>
+    
+                <div class="col-md mb-3 mb-md-0">
+                <!-- Card -->
+                <div class="card card-lg">
+                    <div class="card-header text-center">
+                    <div class="mb-2">
+                        <span class="fs-5 align-top text-dark fw-bold">UF</span>
+                        <span id="pricingCount2" class="fs-2 text-dark fw-bold"
+                            data-hs-toggle-switch-item-options='{
+                                "min": 3,
+                                "max": 32.4
+                            }'>3</span>
+                        <span>/mes</span>
+                    </div>
+    
+                    <h5 class="card-title">Medio</h5>
+                    <p class="card-text">Aumente su gestión de cobro ante múltiples deudores</p>
+                    </div>
+    
+                    <div class="card-body d-flex justify-content-center h-100 py-0">
+                    <!-- List Checked -->
+                    <ul class="list-checked list-checked-primary">
+                        <li class="list-checked-item"><b>Hasta 20 documentos</b></li>
+                        <li class="list-checked-item">Publicación y cobranza</li>
+                        <li class="list-checked-item">Sin límite de monto</li>
+                        <li class="list-checked-item">Reporte semanal</li>
+                    </ul>
+                    <!-- End List Checked -->
+                    </div>
+    
+                    <div class="card-footer text-center">
+                    <div class="d-grid mb-2">
+                        <button type="button" class="btn btn-primary">Prueba gratis por 30 días</button>
+                    </div>
+                    <small class="d-block text-muted">Cancelación gratis</small>
+                    </div>
+                </div>
+                <!-- End Card -->
+                </div>
+                <!-- End Col -->
+    
+                <div class="col-md mb-3 mb-md-0">
+                <!-- Card -->
+                <div class="card card-lg">
+                    <div class="card-header text-center">
+                    <div class="mb-2">
+                        <span class="fs-5 align-top text-dark fw-bold">UF</span>
+                        <span id="pricingCount3" class="fs-2 text-dark fw-bold"
+                            data-hs-toggle-switch-item-options='{
+                                "min": 4.5,
+                                "max": 48.6
+                            }'>4.5</span>
+                        <span>/mes</span>
+                    </div>
+    
+                    <h5 class="card-title">Gran</h5>
+                    <p class="card-text">Potencie su área de cobranza y maximice liquidez</p>
+                    </div>
+    
+                    <div class="card-body d-flex justify-content-center h-100 py-0">
+                    <!-- List Checked -->
+                    <ul class="list-checked list-checked-primary">
+                        <li class="list-checked-item"><b>Sin límite de documentos</b></li>
+                        <li class="list-checked-item">Publicación y cobranza</li>
+                        <li class="list-checked-item">Sin límite de monto</li>
+                        <li class="list-checked-item">Reporte semanal</li>
+                    </ul>
+                    <!-- End List Checked -->
+                    </div>
+    
+                    <div class="card-footer text-center">
+                    <div class="d-grid mb-2">
+                        <button type="button" class="btn btn-ghost-primary">Prueba gratis por 30 días</button>
+                    </div>
+                    <small class="d-block text-muted">Cancelación gratis</small>
+                    </div>
+                </div>
+                <!-- End Card -->
+                </div>
+                <!-- End Col -->
+    
+                <div class="col-12">
+                <!-- Card -->
+                <div class="card card-lg card-divider">
+                    <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm mb-3 mb-sm-0">
+                        <h5 class="card-title">¿Plan a medida?</h5>
+                        <p class="card-text">Diseñamos una solución a medida para su empresa</p>
+                        </div>
+                        <!-- End Col -->
+    
+                        <div class="col-sm-auto">
+                        <a class="btn btn-white" href="#contacto">Contactar</a>
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+                    </div>
+                </div>
+                <!-- End Card -->
+                </div>
+                <!-- End Col -->
+            </div>
+            <!-- End Row -->
+            </div>
+            <!-- End Card Group -->
+    
+        </div>
+         
+        <div class="bg-soft-warning">
+            <div class="container content-space-1 content-space-md-3">
+                <div class="row mb-3 mb-md-10">
+                <div class="col-md-4 mb-5 mb-md-0">
+                    <span class="text-cap">Pruebe hoy</span>
+                    <h3>¿No ha logrado cobrar a clientes en mora?</h3>
+                    <p>Publicamos en el boletín bancario y contactamos al deudor hasta que reciba el pago.</p>
+                </div>
+                <!-- End Col -->
+    
+                <div class="col-md-8">
+                    <div class="ps-lg-5">
+                    <div class="row">
+                        <div class="col-sm-6 mb-7">
+                        <!-- Icon -->
+                        <div class="mb-3">
+                            <svg width="48" height="49" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M4.85714 1H11.7364C12.0911 1 12.4343 1.12568 12.7051 1.35474L17.4687 5.38394C17.8057 5.66895 18 6.08788 18 6.5292V19.0833C18 20.8739 17.9796 21 16.1429 21H4.85714C3.02045 21 3 20.8739 3 19.0833V2.91667C3 1.12612 3.02045 1 4.85714 1ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#008060"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.85714 3H14.7364C15.0911 3 15.4343 3.12568 15.7051 3.35474L20.4687 7.38394C20.8057 7.66895 21 8.08788 21 8.5292V21.0833C21 22.8739 20.9796 23 19.1429 23H6.85714C5.02045 23 5 22.8739 5 21.0833V4.91667C5 3.12612 5.02045 3 6.85714 3ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#008060"></path>
+                            </svg>
+                        </div>
+                        <!-- End Icon -->
+    
+                        <h5>Facturas, pagarés y más</h5>
+                        <p>Cobre a clientes en mora sin límite de monto y sin limite de documentos (en plan Gran).</p>
+    
+                        </div>
+                        <!-- End Col -->
+    
+                        <div class="col-sm-6 mb-7">
+                        <!-- Icon -->
+                        <div class="mb-3">
+                            <svg width="48" height="49" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.3" d="M21.6 11.2L19.3 8.89998V5.59993C19.3 4.99993 18.9 4.59993 18.3 4.59993H14.9L12.6 2.3C12.2 1.9 11.6 1.9 11.2 2.3L8.9 4.59993H5.6C5 4.59993 4.6 4.99993 4.6 5.59993V8.89998L2.3 11.2C1.9 11.6 1.9 12.1999 2.3 12.5999L4.6 14.9V18.2C4.6 18.8 5 19.2 5.6 19.2H8.9L11.2 21.5C11.6 21.9 12.2 21.9 12.6 21.5L14.9 19.2H18.2C18.8 19.2 19.2 18.8 19.2 18.2V14.9L21.5 12.5999C22 12.1999 22 11.6 21.6 11.2Z" fill="#008060"></path>
+                            <path d="M11.3 9.40002C11.3 10.2 11.1 10.9 10.7 11.3C10.3 11.7 9.8 11.9 9.2 11.9C8.8 11.9 8.40001 11.8 8.10001 11.6C7.80001 11.4 7.50001 11.2 7.40001 10.8C7.20001 10.4 7.10001 10 7.10001 9.40002C7.10001 8.80002 7.20001 8.4 7.30001 8C7.40001 7.6 7.7 7.29998 8 7.09998C8.3 6.89998 8.7 6.80005 9.2 6.80005C9.5 6.80005 9.80001 6.9 10.1 7C10.4 7.1 10.6 7.3 10.8 7.5C11 7.7 11.1 8.00005 11.2 8.30005C11.3 8.60005 11.3 9.00002 11.3 9.40002ZM10.1 9.40002C10.1 8.80002 10 8.39998 9.90001 8.09998C9.80001 7.79998 9.6 7.70007 9.2 7.70007C9 7.70007 8.8 7.80002 8.7 7.90002C8.6 8.00002 8.50001 8.2 8.40001 8.5C8.40001 8.7 8.30001 9.10002 8.30001 9.40002C8.30001 9.80002 8.30001 10.1 8.40001 10.4C8.40001 10.6 8.5 10.8 8.7 11C8.8 11.1 9 11.2001 9.2 11.2001C9.5 11.2001 9.70001 11.1 9.90001 10.8C10 10.4 10.1 10 10.1 9.40002ZM14.9 7.80005L9.40001 16.7001C9.30001 16.9001 9.10001 17.1 8.90001 17.1C8.80001 17.1 8.70001 17.1 8.60001 17C8.50001 16.9 8.40001 16.8001 8.40001 16.7001C8.40001 16.6001 8.4 16.5 8.5 16.4L14 7.5C14.1 7.3 14.2 7.19998 14.3 7.09998C14.4 6.99998 14.5 7 14.6 7C14.7 7 14.8 6.99998 14.9 7.09998C15 7.19998 15 7.30002 15 7.40002C15.2 7.30002 15.1 7.50005 14.9 7.80005ZM16.6 14.2001C16.6 15.0001 16.4 15.7 16 16.1C15.6 16.5 15.1 16.7001 14.5 16.7001C14.1 16.7001 13.7 16.6 13.4 16.4C13.1 16.2 12.8 16 12.7 15.6C12.5 15.2 12.4 14.8001 12.4 14.2001C12.4 13.3001 12.6 12.7 12.9 12.3C13.2 11.9 13.7 11.7001 14.5 11.7001C14.8 11.7001 15.1 11.8 15.4 11.9C15.7 12 15.9 12.2 16.1 12.4C16.3 12.6 16.4 12.9001 16.5 13.2001C16.6 13.4001 16.6 13.8001 16.6 14.2001ZM15.4 14.1C15.4 13.5 15.3 13.1 15.2 12.9C15.1 12.6 14.9 12.5 14.5 12.5C14.3 12.5 14.1 12.6001 14 12.7001C13.9 12.8001 13.8 13.0001 13.7 13.2001C13.6 13.4001 13.6 13.8 13.6 14.1C13.6 14.7 13.7 15.1 13.8 15.4C13.9 15.7 14.1 15.8 14.5 15.8C14.8 15.8 15 15.7 15.2 15.4C15.3 15.2 15.4 14.7 15.4 14.1Z" fill="#008060"></path>
+                            </svg>
+                        </div>
+                        <!-- End Icon -->
+    
+                        <h5>Sin comisiones</h5>
+                        <p>Eliminamos las comisiones para que pague menos. Cancelación gratis siempre.</p>
+    
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+    
+                    <div class="row">
+                        <div class="col-sm-6 mb-7 mb-sm-0">
+                        <!-- Icon -->
+                        <div class="mb-3">
+                            <svg width="48" height="49" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.3" d="M3.20001 5.91897L16.9 3.01895C17.4 2.91895 18 3.219 18.1 3.819L19.2 9.01895L3.20001 5.91897Z" fill="#008060"></path>
+                            <path opacity="0.3" d="M13 13.9189C13 12.2189 14.3 10.9189 16 10.9189H21C21.6 10.9189 22 11.3189 22 11.9189V15.9189C22 16.5189 21.6 16.9189 21 16.9189H16C14.3 16.9189 13 15.6189 13 13.9189ZM16 12.4189C15.2 12.4189 14.5 13.1189 14.5 13.9189C14.5 14.7189 15.2 15.4189 16 15.4189C16.8 15.4189 17.5 14.7189 17.5 13.9189C17.5 13.1189 16.8 12.4189 16 12.4189Z" fill="#008060"></path>
+                            <path d="M13 13.9189C13 12.2189 14.3 10.9189 16 10.9189H21V7.91895C21 6.81895 20.1 5.91895 19 5.91895H3C2.4 5.91895 2 6.31895 2 6.91895V20.9189C2 21.5189 2.4 21.9189 3 21.9189H19C20.1 21.9189 21 21.0189 21 19.9189V16.9189H16C14.3 16.9189 13 15.6189 13 13.9189Z" fill="#008060"></path>
+                            </svg>
+                        </div>
+                        <!-- End Icon -->
+    
+                        <h5>Hasta que reciba el pago</h5>
+                        <p>Publicamos a deudores de manera indefinida y enviamos un email cada semana.</p>
+    
+                        </div>
+                        <!-- End Col -->
+    
+                        <div class="col-sm-6">
+                        <!-- Icon -->
+                        <div class="mb-3">
+                            <svg width="48" height="49" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M22.1671 18.1421C22.4827 18.4577 23.0222 18.2331 23.0206 17.7868L23.0039 13.1053V5.52632C23.0039 4.13107 21.8729 3 20.4776 3H8.68815C7.2929 3 6.16183 4.13107 6.16183 5.52632V9H13C14.6568 9 16 10.3431 16 12V15.6316H19.6565L22.1671 18.1421Z" fill="#008060"></path>
+                            <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M1.98508 18V13C1.98508 11.8954 2.88051 11 3.98508 11H11.9851C13.0896 11 13.9851 11.8954 13.9851 13V18C13.9851 19.1046 13.0896 20 11.9851 20H4.10081L2.85695 21.1905C2.53895 21.4949 2.01123 21.2695 2.01123 20.8293V18.3243C1.99402 18.2187 1.98508 18.1104 1.98508 18ZM5.99999 14.5C5.99999 14.2239 6.22385 14 6.49999 14H11.5C11.7761 14 12 14.2239 12 14.5C12 14.7761 11.7761 15 11.5 15H6.49999C6.22385 15 5.99999 14.7761 5.99999 14.5ZM9.49999 16C9.22385 16 8.99999 16.2239 8.99999 16.5C8.99999 16.7761 9.22385 17 9.49999 17H11.5C11.7761 17 12 16.7761 12 16.5C12 16.2239 11.7761 16 11.5 16H9.49999Z" fill="#008060"></path>
+                            </svg>
+                        </div>
+                        <!-- End Icon -->
+    
+                        <h5>¿Necesita algo más?</h5>
+                        <p>Si necesita pasar al siguiente nivel, contamos con abogados expertos en cobranza judicial.</p>
+    
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+                    
+                    
+                    </div>
+                </div>
+                <!-- End Col -->
+                </div>
+    
+                <div class="mx-auto" style="max-width: 31.25rem;">
+                <!-- Alert -->
+                <div class="alert alert-soft-primary" role="alert">
+                    <div class="d-sm-flex align-items-sm-center">
+                    <div class="flex-shrink-0 mb-3 mb-sm-0">
+                        <span class="svg-icon text-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15 19.5229C15 20.265 15.9624 20.5564 16.374 19.9389L22.2227 11.166C22.5549 10.6676 22.1976 10 21.5986 10H17V4.47708C17 3.73503 16.0376 3.44363 15.626 4.06106L9.77735 12.834C9.44507 13.3324 9.80237 14 10.4014 14H15V19.5229Z" fill="#035A4B"></path>
+                        <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M3 6.5C3 5.67157 3.67157 5 4.5 5H9.5C10.3284 5 11 5.67157 11 6.5C11 7.32843 10.3284 8 9.5 8H4.5C3.67157 8 3 7.32843 3 6.5ZM3 18.5C3 17.6716 3.67157 17 4.5 17H9.5C10.3284 17 11 17.6716 11 18.5C11 19.3284 10.3284 20 9.5 20H4.5C3.67157 20 3 19.3284 3 18.5ZM2.5 11C1.67157 11 1 11.6716 1 12.5C1 13.3284 1.67157 14 2.5 14H6.5C7.32843 14 8 13.3284 8 12.5C8 11.6716 7.32843 11 6.5 11H2.5Z" fill="#035A4B"></path>
+                        </svg>
+    
+                        </span>
+                    </div>
+    
+                    <div class="flex-grow-1 text-dark ms-sm-3 mb-3 mb-sm-0">¿Se aburrió de cobrarle a clientes sin disposición a pagar?</div>
+    
+                    <div class="flex-shrink-0 ms-sm-3">
+                        <a class="btn btn-primary" href="#precios">Prueba gratis por 30 días</a>
+                    </div>
+                    </div>
+                </div>
+                <!-- End Alert -->
                 </div>
                 <!-- End Row -->
-                </div>
+    
+                
             </div>
-            <!-- End Card -->
-            </div>
-            <!-- End Col -->
         </div>
-        <!-- End Row -->
-        </div>
-        <!-- End Card Group -->
 
-        </div>
-     
         <div id="faq" class="container content-space-1">
         <div class="text-center">
         <img class="mb-5" src="../assets/svg/illustrations/oc-looking-for-answers.svg" alt="Illustration" style="max-width: 15rem;">
