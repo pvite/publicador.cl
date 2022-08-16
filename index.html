@@ -59,10 +59,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <!-- Toggler -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-default">
-            <i class="bi-list"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
             </span>
             <span class="navbar-toggler-toggled">
-            <i class="bi-x"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
             </span>
         </button>
         <!-- End Toggler -->
@@ -817,31 +821,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         <!-- Form -->
         <div class="mx-auto" style="max-width: 35rem;">
-            <form action="./gracias" id="contact-form-footer" data-hs-cf-bound="true">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <!-- Form -->
-                        <div class="mb-4">
-                          <label class="form-label" for="hireUsFormFirstName">Nombre</label>
-                          <input type="text" class="form-control" name="firstname" id="PrimerNombre" placeholder="Sofía" aria-label="Sofía">
-                        </div>
-                        <!-- End Form -->
-                      </div>
-              
-                      <div class="col-sm-6">
-                        <!-- Form -->
-                        <div class="mb-4">
-                          <label class="form-label" for="hireUsFormLasttName">Apellido</label>
-                          <input type="text" class="form-control" name="lastname" id="Apellido" placeholder="Gonzalez" aria-label="Gonzalez">
-                        </div>
-                        <!-- End Form -->
-                      </div>
-                </div>
+           
+            <form action="./gracias" id="contact-form">
+                <!-- Form -->
+            <div class="mb-4">
+                <label class="form-label" for="registerEmail">Nombre</label>
+                <input type="text" class="form-control form-control-lg" name="fullname" id="registerName" placeholder="Sofía Gonzalez" aria-label="Type your name" required data-msg="Please enter your name.">
+            </div>
             <!-- End Form -->
+
             <!-- Form -->
             <div class="mb-4">
-                <label class="form-label" for="hireUsFormWorkEmail">Email</label>
-                <input type="text" class="form-control" name="email" id="hireUsFormWorkEmail" placeholder="ejemplo@correo.cl" aria-label="ejemplo@correo.cl">
+                <label class="form-label" for="registerEmail">Correo</label>
+                <input type="email" class="form-control form-control-lg" name="email" id="registerEmail" placeholder="email@ejemplo.cl" aria-label="example@site.com" required data-msg="Please enter a valid email address.">
             </div>
             <!-- End Form -->
 
@@ -849,48 +841,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <label class="form-label" for="registerEmail">¿Cuántos documentos necesitas cobrar?</label>
 
                 <div class="row">
-                    <div class="col-sm mb-4 mb-sm-0">
+                <div class="col-sm mb-4 mb-sm-0">
                     <!-- Form Check -->
                     <label class="form-control form-control-lg" for="registerRadio1">
-                        <span class="form-check form-check-custom">
-                        <input type="radio" class="form-check-input" name="select-docs" id="1-5" checked>
-                        <span class="form-check-label">1-5</span>
-                        </span>
+                    <span class="form-check form-check-custom">
+                        <input type="radio" class="form-check-input" name="registerRadio" id="registerRadio1" checked>
+                        <span class="form-check-label">1-20</span>
+                    </span>
                     </label>
                     <!-- End Form Check -->
-                    </div>
+                </div>
 
-                    <div class="col-sm mb-4 mb-sm-0">
+                <div class="col-sm">
                     <!-- Form Check -->
                     <label class="form-control form-control-lg" for="registerRadio2">
-                        <span class="form-check form-check-custom">
-                        <input type="radio" class="form-check-input" name="select-docs" id="5-20">
-                        <span class="form-check-label">5-20</span>
-                        </span>
+                    <span class="form-check form-check-custom">
+                        <input type="radio" class="form-check-input" name="registerRadio" id="registerRadio2">
+                        <span class="form-check-label">Más de 20</span>
+                    </span>
                     </label>
                     <!-- End Form Check -->
-                    </div>
-
-                    <div class="col-sm">
-                    <!-- Form Check -->
-                    <label class="form-control form-control-lg" for="registerRadio2">
-                        <span class="form-check form-check-custom">
-                        <input type="radio" class="form-check-input" name="select-docs" id="20+">
-                        <span class="form-check-label">20+</span>
-                        </span>
-                    </label>
-                    <!-- End Form Check -->
-                    </div>
+                </div>
                 </div>
                 <!-- End Row -->
             </div>
 
-            <div class="d-grid mb-2">
-                <button type="submit" class="btn btn-primary btn-lg">Contactar</button>
-            </div>
-
-            <div class="text-center">
-                <span class="form-text">100% online, sin comisiones</span>
+            <div class="d-grid text-center">
+                <button type="submit" class="btn btn-primary btn-lg">Contactar ahora</button>
+                <span class="form-text">¿Tienes dudas? <a class="link" href="#faq">Ver preguntas frecuentes</a></span>
             </div>
             </form>
         </div>
