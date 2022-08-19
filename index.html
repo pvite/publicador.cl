@@ -77,10 +77,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <li class="nav-item">
                 <a class="nav-link" href="#como-funciona">Cómo funciona</a>
             </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="#precios">Precios</a>
-            </li>
             
             <li class="nav-item">
                 <a class="nav-link" href="#faq">Preguntas</a>
@@ -89,8 +85,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             <!-- Sign up -->
             <li class="nav-item">
-                <a class="btn btn-primary" href="#contacto" role="button">
-                 Contactar
+                <a class="btn btn-primary" href="#precios" role="button">
+                 Ver planes
                 </a>
             </li>
             <!-- End Sign up -->
@@ -381,7 +377,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
 
         <div id="como-funciona" class="shape-container">
-            <div class="container content-space-t-1 content-space-t-md-3 content-space-b-1">
+            <div class="container content-space-t-1 content-space-t-md-3">
                 <!-- Heading -->
                 <div class="w-lg-65 text-center mx-lg-auto mb-7">
                 <h3>Simple y rápido</h3>
@@ -404,7 +400,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </span>
                     </span>
                     <div class="step-content">
-                        <p class="step-title">Registre su empresa</p>
+                        <p class="step-title">Registra tu empresa <br> y firma online</p>
                     </div>
                     </div>
                 </li>
@@ -423,7 +419,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </span>
                     </span>
                     <div class="step-content">
-                        <p class="step-title">Suba sus documentos</p>
+                        <p class="step-title">Sube los documentos <br> por cobrar</p>
                     </div>
                     </div>
                 </li>
@@ -441,7 +437,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </span>
                     </span>
                     <div class="step-content">
-                        <p class="step-title">Revisamos que esté todo OK</p>
+                        <p class="step-title">Revisamos que esté <br> todo OK</p>
                     </div>
                     </div>
                 </li>
@@ -459,7 +455,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </span>
                     </span>
                     <div class="step-content">
-                        <p class="step-title">Publicación activada</p>
+                        <p class="step-title">Publicación y contacto <br> semanal activado</p>
                     </div>
                     </div>
                 </li>
@@ -469,190 +465,192 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
         </div>
 
-        <div id="precios" class="container content-space-b-2">
-        <!-- Heading -->
-        <div class="w-lg-65 text-center mx-lg-auto mb-7">
-        <h3>Encuentra el plan ideal</h3>
-        <p class="fs-6">Montos fijos, cuentas claras</p>
-        </div>
-        <!-- End Heading -->
-
-        <!-- Form Switch -->
-        <div class="d-flex justify-content-center mb-5">
-        <!-- <div class="form-check form-switch form-switch-between">
-            <label class="form-check-label">Mensual</label>
-            <input class="js-toggle-switch form-check-input" type="checkbox"
-                data-hs-toggle-switch-options='{
-                    "targetSelector": "#pricingCount1, #pricingCount2, #pricingCount3"
-                }'>
-            <label class="form-check-label form-switch-promotion">
-            Anual
-            <span class="form-switch-promotion-container">
-                <span class="form-switch-promotion-body">
-                <svg class="form-switch-promotion-arrow" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 99.3 57" width="48">
-                    <path fill="none" stroke="#bdc5d1" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="M2,39.5l7.7,14.8c0.4,0.7,1.3,0.9,2,0.4L27.9,42"></path>
-                    <path fill="none" stroke="#bdc5d1" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="M11,54.3c0,0,10.3-65.2,86.3-50"></path>
-                </svg>
-                <span class="form-switch-promotion-text">
-                    <span class="badge bg-warning text-dark rounded-pill ms-1">20% dcto.</span>
-                </span>
-                </span>
-            </span>
-            </label>
-        </div> -->
-        </div>
-        <!-- End Form Switch -->
-
-        <!-- Card Group -->
-        <div class="w-lg-85 shadow-lg rounded mx-lg-auto mb-7">
-        <div class="row card-group-md-row card-group-md-3">
-            <div class="col-md mb-3 mb-md-0">
-            <!-- Card -->
-            <div class="card card-lg">
-                <div class="card-header text-center">
-                <div class="mb-2">
-                    <span class="fs-5 align-top text-dark fw-bold">UF</span>
-                    <span id="pricingCount1" class="fs-2 text-dark fw-bold"
-                        data-hs-toggle-switch-item-options='{
-                            "min": 1,
-                            "max": 10.8
-                        }'>1</span>
-                        <span>/mes + IVA</span>
+        <div class="bg-soft-success">
+            <div id="precios" class="container content-space-2">
+                <!-- Heading -->
+                <div class="w-lg-65 text-center mx-lg-auto mb-7">
+                <h3>Planes sin comisión <span class="text-success">para que pagues menos </span> </h3>
+                <p class="fs-6">Elige el plan según la cantidad de documentos que necesites cobrar.</p>
+                </div>
+                <!-- End Heading -->
+        
+                <!-- Form Switch -->
+                <div class="d-flex justify-content-center mb-5">
+                <!-- <div class="form-check form-switch form-switch-between">
+                    <label class="form-check-label">Mensual</label>
+                    <input class="js-toggle-switch form-check-input" type="checkbox"
+                        data-hs-toggle-switch-options='{
+                            "targetSelector": "#pricingCount1, #pricingCount2, #pricingCount3"
+                        }'>
+                    <label class="form-check-label form-switch-promotion">
+                    Anual
+                    <span class="form-switch-promotion-container">
+                        <span class="form-switch-promotion-body">
+                        <svg class="form-switch-promotion-arrow" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 99.3 57" width="48">
+                            <path fill="none" stroke="#bdc5d1" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="M2,39.5l7.7,14.8c0.4,0.7,1.3,0.9,2,0.4L27.9,42"></path>
+                            <path fill="none" stroke="#bdc5d1" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="M11,54.3c0,0,10.3-65.2,86.3-50"></path>
+                        </svg>
+                        <span class="form-switch-promotion-text">
+                            <span class="badge bg-warning text-dark rounded-pill ms-1">20% dcto.</span>
+                        </span>
+                        </span>
+                    </span>
+                    </label>
+                </div> -->
+                </div>
+                <!-- End Form Switch -->
+        
+                <!-- Card Group -->
+                <div class="w-lg-85 shadow-lg rounded mx-lg-auto mb-7">
+                <div class="row card-group-md-row card-group-md-3">
+                    <div class="col-md mb-3 mb-md-0">
+                    <!-- Card -->
+                    <div class="card card-lg">
+                        <div class="card-header text-center">
+                        <div class="mb-2">
+                            <span class="fs-5 align-top text-dark fw-bold">UF</span>
+                            <span id="pricingCount1" class="fs-2 text-dark fw-bold"
+                                data-hs-toggle-switch-item-options='{
+                                    "min": 1,
+                                    "max": 10.8
+                                }'>1</span>
+                                <span>/mes + IVA</span>
+                            </div>
+        
+                        <h5 class="card-title">Micro</h5>
+                        <p class="card-text">Comienza a publicar a sus primeros deudores</p>
+                        </div>
+        
+                        <div class="card-body d-flex justify-content-center h-100 py-0">
+                        <!-- List Checked -->
+                        <ul class="list-checked list-checked-primary">
+                            <li class="list-checked-item"><b>Hasta 5 documentos</b></li>
+                            <li class="list-checked-item">Contacto semanal a deudor</li>
+                            <li class="list-checked-item">Sin límite de monto</li>
+                            <li class="list-checked-item">Sin límite de tiempo</li>
+                        </ul>
+                        <!-- End List Checked -->
+                        </div>
+        
+                        <div class="card-footer text-center">
+                        <div class="d-grid mb-2">
+                            <a type="button" href="https://app.reveniu.com/checkout-custom-link/3yZuL6II9Gk77wtlM0YuU7veU3Avezpm" class="btn btn-ghost-primary">Probar gratis 30 días</a>
+                        </div>
+                        <small class="d-block text-muted">Cancelación gratis</small>
+                        </div>
                     </div>
-
-                <h5 class="card-title">Micro</h5>
-                <p class="card-text">Comienza a publicar a sus primeros deudores</p>
-                </div>
-
-                <div class="card-body d-flex justify-content-center h-100 py-0">
-                <!-- List Checked -->
-                <ul class="list-checked list-checked-primary">
-                    <li class="list-checked-item"><b>Hasta 5 documentos</b></li>
-                    <li class="list-checked-item">Contacto semanal a deudor</li>
-                    <li class="list-checked-item">Sin límite de monto</li>
-                    <li class="list-checked-item">Sin límite de tiempo</li>
-                </ul>
-                <!-- End List Checked -->
-                </div>
-
-                <div class="card-footer text-center">
-                <div class="d-grid mb-2">
-                    <a type="button" href="https://app.reveniu.com/checkout-custom-link/3yZuL6II9Gk77wtlM0YuU7veU3Avezpm" class="btn btn-ghost-primary">Probar gratis 30 días</a>
-                </div>
-                <small class="d-block text-muted">Cancelación gratis</small>
-                </div>
-            </div>
-            </div>
-
-            <div class="col-md mb-3 mb-md-0">
-            <!-- Card -->
-            <div class="card card-lg">
-                <div class="card-header text-center">
-                <div class="mb-2">
-                    <span class="fs-5 align-top text-dark fw-bold">UF</span>
-                    <span id="pricingCount2" class="fs-2 text-dark fw-bold"
-                        data-hs-toggle-switch-item-options='{
-                            "min": 3,
-                            "max": 32.4
-                        }'>3</span>
-                        <span>/mes + IVA</span>
                     </div>
-
-                <h5 class="card-title">Medio</h5>
-                <p class="card-text">Aumenta tu gestión de cobro ante múltiples deudores</p>
-                </div>
-
-                <div class="card-body d-flex justify-content-center h-100 py-0">
-                <!-- List Checked -->
-                <ul class="list-checked list-checked-primary">
-                    <li class="list-checked-item"><b>Hasta 20 documentos</b></li>
-                    <li class="list-checked-item">Contacto semanal a deudor</li>
-                    <li class="list-checked-item">Sin límite de monto</li>
-                    <li class="list-checked-item">Sin límite de tiempo</li>
-                </ul>
-                <!-- End List Checked -->
-                </div>
-
-                <div class="card-footer text-center">
-                <div class="d-grid mb-2">
-                    <a type="button" href="https://app.reveniu.com/checkout-custom-link/x4SiyplEuICfAYxscByQh6VJqAluqwzb" class="btn btn-primary">Prueba gratis 30 días</a>
-                </div>
-                <small class="d-block text-muted">Cancelación gratis</small>
-                </div>
-            </div>
-            <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-md mb-3 mb-md-0">
-            <!-- Card -->
-            <div class="card card-lg">
-                <div class="card-header text-center">
-                <div class="mb-2">
-                    <span class="fs-5 align-top text-dark fw-bold">UF</span>
-                    <span id="pricingCount3" class="fs-2 text-dark fw-bold"
-                        data-hs-toggle-switch-item-options='{
-                            "min": 4.5,
-                            "max": 48.6
-                        }'>4.5</span>
-                    <span>/mes + IVA</span>
-                </div>
-
-                <h5 class="card-title">Gran</h5>
-                <p class="card-text">Potencia su área de cobranza y maximiza liquidez</p>
-                </div>
-
-                <div class="card-body d-flex justify-content-center h-100 py-0">
-                <!-- List Checked -->
-                <ul class="list-checked list-checked-primary">
-                    <li class="list-checked-item"><b>Hasta 50 documentos</b></li>
-                    <li class="list-checked-item">Contacto semanal a deudor</li>
-                    <li class="list-checked-item">Sin límite de monto</li>
-                    <li class="list-checked-item">Sin límite de tiempo</li>
-                </ul>
-                <!-- End List Checked -->
-                </div>
-
-                <div class="card-footer text-center">
-                <div class="d-grid mb-2">
-                    <a type="button" href="https://app.reveniu.com/checkout-custom-link/HkvCWyEZxdU75N8WeMYdAkpLCHYCwCQr" class="btn btn-ghost-primary">Prueba gratis 30 días</a>
-                </div>
-                <small class="d-block text-muted">Cancelación gratis</small>
-                </div>
-            </div>
-            <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-12">
-            <!-- Card -->
-            <div class="card card-lg card-divider">
-                <div class="card-body">
-                <div class="row">
-                    <div class="col-sm mb-3 mb-sm-0">
-                    <h5 class="card-title">¿Tienes una cartera?</h5>
-                    <p class="card-text">Solicita un contacto para publicar y cobrar <b> sin límite de documentos</b></p>
+        
+                    <div class="col-md mb-3 mb-md-0">
+                    <!-- Card -->
+                    <div class="card card-lg">
+                        <div class="card-header text-center">
+                        <div class="mb-2">
+                            <span class="fs-5 align-top text-dark fw-bold">UF</span>
+                            <span id="pricingCount2" class="fs-2 text-dark fw-bold"
+                                data-hs-toggle-switch-item-options='{
+                                    "min": 3,
+                                    "max": 32.4
+                                }'>3</span>
+                                <span>/mes + IVA</span>
+                            </div>
+        
+                        <h5 class="card-title">Medio</h5>
+                        <p class="card-text">Aumenta tu gestión de cobro ante múltiples deudores</p>
+                        </div>
+        
+                        <div class="card-body d-flex justify-content-center h-100 py-0">
+                        <!-- List Checked -->
+                        <ul class="list-checked list-checked-primary">
+                            <li class="list-checked-item"><b>Hasta 20 documentos</b></li>
+                            <li class="list-checked-item">Contacto semanal a deudor</li>
+                            <li class="list-checked-item">Sin límite de monto</li>
+                            <li class="list-checked-item">Sin límite de tiempo</li>
+                        </ul>
+                        <!-- End List Checked -->
+                        </div>
+        
+                        <div class="card-footer text-center">
+                        <div class="d-grid mb-2">
+                            <a type="button" href="https://app.reveniu.com/checkout-custom-link/x4SiyplEuICfAYxscByQh6VJqAluqwzb" class="btn btn-primary">Prueba gratis 30 días</a>
+                        </div>
+                        <small class="d-block text-muted">Cancelación gratis</small>
+                        </div>
+                    </div>
+                    <!-- End Card -->
                     </div>
                     <!-- End Col -->
-
-                    <div class="col-sm-auto">
-                    <a class="btn btn-white" href="#contacto">Contactar</a>
+        
+                    <div class="col-md mb-3 mb-md-0">
+                    <!-- Card -->
+                    <div class="card card-lg">
+                        <div class="card-header text-center">
+                        <div class="mb-2">
+                            <span class="fs-5 align-top text-dark fw-bold">UF</span>
+                            <span id="pricingCount3" class="fs-2 text-dark fw-bold"
+                                data-hs-toggle-switch-item-options='{
+                                    "min": 4.5,
+                                    "max": 48.6
+                                }'>4.5</span>
+                            <span>/mes + IVA</span>
+                        </div>
+        
+                        <h5 class="card-title">Gran</h5>
+                        <p class="card-text">Potencia su área de cobranza y maximiza liquidez</p>
+                        </div>
+        
+                        <div class="card-body d-flex justify-content-center h-100 py-0">
+                        <!-- List Checked -->
+                        <ul class="list-checked list-checked-primary">
+                            <li class="list-checked-item"><b>Hasta 50 documentos</b></li>
+                            <li class="list-checked-item">Contacto semanal a deudor</li>
+                            <li class="list-checked-item">Sin límite de monto</li>
+                            <li class="list-checked-item">Sin límite de tiempo</li>
+                        </ul>
+                        <!-- End List Checked -->
+                        </div>
+        
+                        <div class="card-footer text-center">
+                        <div class="d-grid mb-2">
+                            <a type="button" href="https://app.reveniu.com/checkout-custom-link/HkvCWyEZxdU75N8WeMYdAkpLCHYCwCQr" class="btn btn-ghost-primary">Prueba gratis 30 días</a>
+                        </div>
+                        <small class="d-block text-muted">Cancelación gratis</small>
+                        </div>
+                    </div>
+                    <!-- End Card -->
+                    </div>
+                    <!-- End Col -->
+        
+                    <div class="col-12">
+                    <!-- Card -->
+                    <div class="card card-lg card-divider">
+                        <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm mb-3 mb-sm-0">
+                            <h5 class="card-title">¿Tienes una cartera?</h5>
+                            <p class="card-text">Solicita un contacto para publicar y cobrar <b> sin límite de documentos</b></p>
+                            </div>
+                            <!-- End Col -->
+        
+                            <div class="col-sm-auto">
+                            <a class="btn btn-white" href="#contacto">Contactar</a>
+                            </div>
+                            <!-- End Col -->
+                        </div>
+                        <!-- End Row -->
+                        </div>
+                    </div>
+                    <!-- End Card -->
                     </div>
                     <!-- End Col -->
                 </div>
                 <!-- End Row -->
                 </div>
-            </div>
-            <!-- End Card -->
-            </div>
-            <!-- End Col -->
+                <!-- End Card Group -->
+        
+            </div>    
         </div>
-        <!-- End Row -->
-        </div>
-        <!-- End Card Group -->
-
-        </div>
-     
+        
         <div id="faq" class="container content-space-1">
         <div class="text-center">
         <img class="mb-5" src="./assets/svg/illustrations/oc-looking-for-answers.svg" alt="Illustration" style="max-width: 15rem;">
