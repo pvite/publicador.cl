@@ -98,9 +98,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </header>
 
     <main id="content" role="main">
-        <div class="alert alert-soft-success mb-0 text-center" style="border-radius: 0px" role="alert">
+        <!-- <div class="alert alert-soft-success mb-0 text-center" style="border-radius: 0px" role="alert">
              <a href="./deudor/regularizar-deuda" class="alert-link">¿Tienes una deuda? Regulariza aquí</a>
-        </div>
+        </div> -->
 
         <div class="bg-primary-dark position-relative overflow-hidden">
             <div class="container content-space-2">
@@ -108,8 +108,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="col-md-8 col-lg-6 mb-7 mb-lg-0">
                 <!-- Heading -->
                 <div class="pe-lg-3 mb-7">
-                    <h1 class="display-3 text-white mb-3 mb-md-5">Publicación y cobranza de <span class="text-warning">clientes morosos</span></h1>
-                    <p class="lead text-white-70">Publicamos deudas en el boletín financiero y contactamos al deudor, hasta que recibas el pago.</p>
+                    <h1 class="display-3 text-white mb-3 mb-md-5">Cobranza y publicación de <span class="text-warning">clientes en mora</span></h1>
+                    <p class="lead text-white-70">Gestiona la cobranza de clientes morosos con Publicador.cl y ahorra tiempo. ¿Cómo comenzar? <a class="text-white-70" href="#precios"><u>Prueba gratis por 30 días</u></a></p>
                 </div>
                 <!-- End Heading -->
         
@@ -172,33 +172,59 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <!-- End Col -->
         
                         <div class="col-sm">
-                            <h5 class="card-title">Prueba publicador</h5>
-                            <p class="card-text">Publicamos y contactamos a deudores, hasta que recibas el pago.</p>
+                            <h5 class="card-title">Solicita un contacto</h5>
+                            <p class="card-text">Descubre cómo funciona y los planes para empresas</p>
                         </div>
                         <!-- End Col -->
                         </div>
                         <!-- End Row -->
         
                         <form action="./gracias" id="contact-form">
-                            <!-- Form -->
-                        <div class="mb-4">
-                            <label class="form-label" for="registerEmail">Nombre</label>
-                            <input type="text" class="form-control form-control-lg" name="fullname" id="registerName" placeholder="Sofía Gonzalez" aria-label="Type your name" required data-msg="Please enter your name.">
-                        </div>
-                        <!-- End Form -->
-        
-                        <!-- Form -->
-                        <div class="mb-4">
-                            <label class="form-label" for="registerEmail">Correo</label>
-                            <input type="email" class="form-control form-control-lg" name="email" id="registerEmail" placeholder="email@ejemplo.cl" aria-label="example@site.com" required data-msg="Please enter a valid email address.">
-                        </div>
-                        <!-- End Form -->
-
-                        <!-- Form -->
-                        <div class="mb-4">
-                            <label class="form-label" for="registerEmail">Teléfono</label>
-                            <input type="tel" class="form-control form-control-lg" name="phone" id="phone" placeholder="+569 1234 5678" aria-label="phone" required="">                        </div>
-                        <!-- End Form -->
+                            <div class="row">
+                                <div class="col-sm-6 mb-4 mb-sm-0">
+                                  <!-- Form -->
+                                  <div class="mb-4">
+                                    <label class="form-label" for="registerEmail">Nombre</label>
+                                    <input type="text" class="form-control" name="fullname" id="registerName" placeholder="Sofía Gonzalez" aria-label="Type your name" required="" data-msg="Please enter your name.">
+                                  </div>
+                                  <!-- End Form -->
+                                </div>
+                                <!-- End Col -->
+                  
+                                <div class="col-sm-6">
+                                  <!-- Form -->
+                                  <div class="mb-4">
+                                    <label class="form-label" for="registerEmail">Correo</label>
+                                    <input type="email" class="form-control" name="email" id="registerEmail" placeholder="email@ejemplo.cl" aria-label="example@site.com" required data-msg="Please enter a valid email address.">
+                                  </div>
+                                  <!-- End Form -->
+                                </div>
+                                <!-- End Col -->
+                              </div>
+                              <!-- End Row -->
+                         
+                              <div class="row">
+                                <div class="col-sm-6 mb-4 mb-sm-0">
+                                  <!-- Form -->
+                                  <div class="mb-4">
+                                    <label class="form-label" for="contactsFormCompany">Teléfono</label>
+                                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="+569 1234 5678" aria-label="phone" required="">
+                                  </div>
+                                  <!-- End Form -->
+                                </div>
+                                <!-- End Col -->
+                  
+                                <div class="col-sm-6">
+                                  <!-- Form -->
+                                  <div class="mb-4">
+                                    <label class="form-label" for="contactsFormCompanyWebsite">Empresa</label>
+                                    <input type="text" class="form-control" name="contactsFormNameCompanyWebsite" id="contactsFormCompanyWebsite" placeholder="Nombre empresa" aria-label="htmlstream.com">
+                                  </div>
+                                  <!-- End Form -->
+                                </div>
+                                <!-- End Col -->
+                              </div>
+                              <!-- End Row -->
         
                         <div class="mb-4">
                             <label class="form-label" for="registerEmail">¿Cuántos documentos necesitas cobrar?</label>
@@ -206,10 +232,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <div class="row">
                             <div class="col-sm mb-4 mb-sm-0">
                                 <!-- Form Check -->
-                                <label class="form-control form-control-lg" for="registerRadio1">
+                                <label class="form-control" for="registerRadio1">
                                 <span class="form-check form-check-custom">
                                     <input type="radio" class="form-check-input" name="registerRadio" id="registerRadio1" checked>
-                                    <span class="form-check-label">1-20</span>
+                                    <span class="form-check-label">1 - 20</span>
                                 </span>
                                 </label>
                                 <!-- End Form Check -->
@@ -217,7 +243,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         
                             <div class="col-sm">
                                 <!-- Form Check -->
-                                <label class="form-control form-control-lg" for="registerRadio2">
+                                <label class="form-control" for="registerRadio2">
                                 <span class="form-check form-check-custom">
                                     <input type="radio" class="form-check-input" name="registerRadio" id="registerRadio2">
                                     <span class="form-check-label">Más de 20</span>
@@ -231,7 +257,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         
                         <div class="d-grid text-center">
                             <button type="submit" style="z-index: 99" class="btn btn-primary btn-lg">Contactar ahora</button>
-                            <span class="form-text">¿Tienes dudas? <a class="link" href="#faq">Ver preguntas frecuentes</a></span>
+                            <span class="form-text">¿Quieres comenzar? <a class="link" href="#precios">Prueba gratis 30 días</a></span>
                         </div>
                         </form>
                     </div>
